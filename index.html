@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ARS Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/general.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/header.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/footer.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/responsive.css"
+    />
+
+    <script src="https://kit.fontawesome.com/61cf471899.js" crossorigin="anonymous"></script>
+    <script src="assets/index.js"></script>
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav>
+          <a href="index.html" class="logo">ARS</a>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <h1>ADRIAN R. SARRAGA</h1>
+          <p>Computer Engineering Technology</p>
+        </div>
+      </div>
+    </header>
+
+    <div id="about">
+      <div class="row">
+        <div class="about-col-1"><img src="assets/img/2X2.jpg" /></div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            <p>Hi! I’m Adrian, a Computer Engineering Technology student with a passion for programming, graphic design, and networking. I specialize in creating responsive websites with HTML, CSS, and JavaScript, developing applications with C++, and designing visuals that stand out.
+              I love blending creativity and technical skills to solve problems and bring ideas to life. Let’s work together to make something amazing!</p>
+          </p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>Programming</span><br />HTML <br />
+                CSS <br />
+                Javascript <br /> C++
+              </li>
+              <li>
+                <span>Graphics Design</span><br />Basic Editing using Adobe
+                Photoshop
+              </li>
+              <li>
+                <span>Networking</span><br />Basic Networking Set up, Configure,
+                Troubleshoot Router
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span>2024-Current</span><br />IT Support OJT at Eloisa Royal Suites
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>College (2022-Current)</span><br />CITE - Center for Industrial and Technology Enterprise
+              </li>
+              <li>
+                <span>Senior High (2020-2022)</span><br />Cabancalan II National Highschool
+              </li>
+              <li>
+                <span>Junior High (2017-2020)</span><br />Banilad National Highschool
+              </li>
+              <li>
+                <span>Elementary (20XX-2017)</span><br />Cabancalan I Elementary School
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p></p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Graphics Design</h2>
+            <p></p>
+            <a href="#">Learn more</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-desktop"></i>
+            <h2>Troubleshoot Hardware</h2>
+            <p></p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+
+        <div class="work-list">
+          <div class="work">
+            <img src="assets/img/Screenshot 2025-01-04 190614.png">
+            <div class="layer">
+              <h3>Website Project Layout (Login)</h3>
+              <p></p>
+              <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="assets/img/Screenshot 2025-01-04 190653.png">
+            <div class="layer">
+              <h3>Website Project Layout (Register)</h3>
+              <p></p>
+              <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="button">See more</a>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact</h1>
+            <p><i class="fa-solid fa-at"></i>g12311190@gmail.com</p>
+            <p><i class="fa-solid fa-mobile-screen-button"></i>09XXXXXXXXX</p>
+            <div class="social-icons">
+              <a href="https://github.com/Sarraga-Adrian" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/login" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+              <a href="https://x.com/?lang=en&mx=2" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://www.tiktok.com/login" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+              <a href="assets/pdf/Resume.pdf"  download class="button button2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Message"></textarea>
+              <button type="submit" class="button button2">Submit</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-copyright"></i> Adrian.</p>
+      </div>
+    </div>
+  </body>
+</html>

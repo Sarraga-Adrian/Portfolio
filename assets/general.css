@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+@font-face {
+  font-family: Libre Baskerville;
+  src: url(fonts/LibreBaskerville-Regular.ttf);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000000;
+}
+
+p {
+  color: white;
+}
